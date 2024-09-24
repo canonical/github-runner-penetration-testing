@@ -1,0 +1,11 @@
+name: Sample
+
+on:
+  pull_request:
+
+jobs:
+  sample:
+    name: Self-hosted X64
+    runs-on: [self-hosted, xlarge, linux, X64, jammy]
+    steps:
+      - run: echo hello, world!
